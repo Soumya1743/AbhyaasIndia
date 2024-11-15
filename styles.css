@@ -2,10 +2,9 @@
     background-image: url(resources/abhyas\ background\ cropped.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 98.1vh;
 }
 #logo_block{
-    padding: 2rem 0rem 3rem 0rem;
+    padding: 3rem 0rem 3rem 0rem;
 }
 #home_contents_flex {
     display: flex;
@@ -38,7 +37,7 @@
 }
 
 #contactus_div {
-    height: 8rem;
+    height: 10rem;
     width: 25rem;
 }
 
@@ -46,7 +45,8 @@
     display: flex;
     justify-content: space-evenly;
     width: 25rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1.901rem;
 }
 
 #whatsapp_icon,

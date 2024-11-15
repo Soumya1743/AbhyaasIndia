@@ -5,7 +5,7 @@
 }
 
 #logo_block {
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 #home_contents_flex {
@@ -61,43 +61,24 @@
 
 
 
-@media only screen and (max-height: 970px) {
-        #home_contents_flex {
-            display: flex;
-            width: 70rem;
-            justify-content: center;
-            flex-wrap: wrap;
-            column-gap: 3rem;
-            row-gap: 3rem;
-        }
 
-        #services_div,
-        #training_div {
-            height: 15rem;
-            width: 25rem;
-        }
 
-        #services_img {
-            height: 15rem;
-            width: 25rem;
-        }
 
-        #training_img {
-            height: 15rem;
-            width: 25rem;
-        }
+@media only screen and (max-width: 1451px) {
+    #logo_block {
+        padding: 1rem 0rem 1rem 0rem;
+    }
 
-        #contact_img {
-            height: 8rem;
-            width: 25rem;
-        }
+    #icons {
+        padding-top: 0.82rem;
+        padding-bottom: 0.8rem;
+    }
 
-        #contactus_div {
-            height: 8rem;
-            width: 25rem;
-        }
-    
-
+    #contact_img,
+    #contactus_div {
+        height: 7.5rem;
+        width: 25rem;
+    }
 }
 
 
@@ -105,225 +86,91 @@
     #background1 {
         width: max-content;
     }
-
+    #logo_block {
+        padding: 2rem 0rem 2rem 0rem;
+    }
     #services_div,
-    #training_div {
-        height: 12rem;
-        width: 20rem;
+    #training_div,
+    #services_img,
+    #training_img {
+        height: 13rem;
+        width: 22rem;
+    }
+    #contact_img,
+    #contactus_div {
+        height: 7.5rem;
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #background1 {
+        width: 98vw;
+    }
+    #home_contents_flex {
+        display: flex;
+        width: 30rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 3rem;
+        align-items: center;
+    }
+    #services_div,
+    #training_div,
+    #services_img,
+    #training_img {
+        height: 15rem;
+        width: 25rem;
     }
 
-    #services_img {
-        height: 12rem;
-        width: 20rem;
+    #contact_img,
+    #contactus_div {
+        height: 8rem;
+        width: 25rem;
     }
+}
 
+@media all and (max-width: 550px) {
+    #logo {
+        width: 12rem;
+    }
+    #background1 {
+        width: 98vw;
+    }
+    #services_div,
+    #training_div,
+    #services_img,
     #training_img {
         height: 12rem;
         width: 20rem;
     }
-
-    #contact_img {
+    #contact_img,
+    #contactus_div {
         height: 7rem;
         width: 20rem;
     }
-
-    #contactus_div {
-        height: 7rem;
-        width: 20rem;
-    }
-}
-
-@media only screen and (max-height: 800px) {
-    #background1 {
-        background-image: url(resources/abhyas\ background\ cropped.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: max-content;
-    }
-
-    #services_div,
-    #training_div {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #services_img {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #training_img {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #contact_img {
-        height: 8rem;
-        width: 25rem;
-    }
-
-    #contactus_div {
-        height: 8rem;
-        width: 25rem;
-    }
-}
-
-@media only screen and (max-height: 775px) {
-    #logo_block {
-        padding: 2.8rem 0rem 2.8rem 0rem;
-    }
-
-    #background1 {
-        background-image: url(resources/abhyas\ background\ cropped.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: max-content;
-    }
-
-    #home_contents_flex {
-        display: flex;
-        width: 54rem;
-        justify-content: center;
-        flex-wrap: wrap;
-        column-gap: 2rem;
-        row-gap: 2rem;
-    }
-
-    #services_div,
-    #training_div {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #services_img {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #training_img {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #contact_img {
-        height: 8rem;
-        width: 25rem;
-    }
-
-    #contactus_div {
-        height: 8rem;
-        width: 25rem;
-    }
-
     #icons {
+        width: 3rem;
         display: flex;
-        justify-content: space-evenly;
-        width: 25rem;
-        padding-top: 0.3rem;
-        padding-bottom: 0.5rem;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        float: right;
+        position: fixed;
+        right: 0.5rem;
+        top: 17rem;
+    }
+    #whatsapp_icon,
+    #instagram_icon,
+    #facebook_icon,
+    #twitter_icon {
+        width: 2rem;
+        height: 2rem;
     }
 }
 
-@media only screen and (max-height: 740px) {
-    #logo_block {
-        padding: 1rem 0rem 1rem 0rem;
-    }
+@media only screen and (max-wdth: 485px) {
     #background1 {
-        height: max-content;
-    }
-
-    #home_contents_flex {
-        display: flex;
-        width: 54rem;
-        justify-content: center;
-        flex-wrap: wrap;
-        column-gap: 2rem;
-        row-gap: 2rem;
-    }
-
-    #services_div,
-    #training_div {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #services_img {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #training_img {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    #contact_img {
-        height: 8rem;
-        width: 25rem;
-    }
-
-    #contactus_div {
-        height: 8rem;
-        width: 25rem;
-    }
-
-    #icons {
-        display: flex;
-        justify-content: space-evenly;
-        width: 25rem;
-        padding-top: 0.35rem;
-        padding-bottom: 1rem;
-    }
-}
-
-@media only screen and (max-height: 690px) {
-    #logo{
-        width: 14.1rem;
-    }
-    #background1 {
-        height: max-content;
-    }
-
-    #home_contents_flex {
-        display: flex;
-        width: 54rem;
-        justify-content: center;
-        flex-wrap: wrap;
-        column-gap: 2rem;
-        row-gap: 2rem;
-    }
-
-    #services_div,
-    #training_div {
-        height: 14rem;
-        width: 22rem;
-    }
-
-    #services_img {
-        height: 14rem;
-        width: 22rem;
-    }
-
-    #training_img {
-        height: 14rem;
-        width: 22rem;
-    }
-
-    #contact_img {
-        height: 7.5rem;
-        width: 22rem;
-    }
-
-    #contactus_div {
-        height: 7.5rem;
-        width: 22rem;
-    }
-
-    #icons {
-        display: flex;
-        justify-content: space-evenly;
-        width: 25rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        width: max-content;
     }
 }

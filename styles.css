@@ -169,8 +169,43 @@
     }
 }
 
-@media only screen and (max-wdth: 485px) {
+@media screen and (max-width: 500px) {
     #background1 {
-        width: max-content;
+        width: 160vw;
+        padding: 2rem 0rem 5rem 0rem;
+    }
+    #logo {
+        width: 18rem;
+        margin-bottom: 2rem;
+    }
+    #services_div,
+    #training_div,
+    #services_img,
+    #training_img {
+        height: 17rem;
+        width: 28rem;
+    }
+    #contact_img,
+    #contactus_div {
+        height: 10rem;
+        width: 28rem;
+        padding-bottom: 5rem;
+    }
+    #icons {
+        width: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2.5rem;
+        float: right;
+        position: fixed;
+        right: 1rem;
+        top: 30rem;
+    }
+    #whatsapp_icon,
+    #instagram_icon,
+    #facebook_icon,
+    #twitter_icon {
+        width: 3.5rem;
+        height: 3.5rem;
     }
 }

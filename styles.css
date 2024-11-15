@@ -101,9 +101,12 @@
         height: 7.5rem;
         width: 25rem;
     }
+    #icons{
+        padding-bottom: 6rem;
+    }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 870px) {
     #background1 {
         width: 98vw;
     }

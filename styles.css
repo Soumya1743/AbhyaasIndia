@@ -1,0 +1,58 @@
+#background1 {
+    background-image: url(resources/abhyas\ background\ cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98.1vh;
+}
+#logo_block{
+    padding: 2rem 0rem 3rem 0rem;
+}
+#home_contents_flex {
+    display: flex;
+    width: 54rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 3rem;
+}
+
+#services_div,
+#training_div {
+    height: 15rem;
+    width: 25rem;
+}
+
+#services_img {
+    height: 15rem;
+    width: 25rem;
+}
+
+#training_img {
+    height: 15rem;
+    width: 25rem;
+}
+
+#contact_img {
+    height: 8rem;
+    width: 25rem;
+}
+
+#contactus_div {
+    height: 8rem;
+    width: 25rem;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25rem;
+    padding-top: 2rem;
+}
+
+#whatsapp_icon,
+#instagram_icon,
+#facebook_icon,
+#twitter_icon {
+    width: 3rem;
+    height: 3rem;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbhyaasIndia_contactus</title>
+    <link rel="icon" href="resources/abhyaas_logo.png">
+    <link rel="stylesheet" href="style_sheets/contact.css">
+</head>
+
+<body id="contact_body">
+    <img src="resources/contactus/left_triangle2.png" alt="" id="left_triangle">
+    <span id="span1"><img src="resources/abhyaas_logo.png" alt="" id="logo_contact"></span>
+    <h1 id="contact_heading">CONTACT US</h1>
+    <center>
+        <h1 id="contact_heading_disable">CONTACT US</h1>
+    </center>
+
+    <div id="contact_main">
+        <div id="section1">
+            <img src="resources/contactus/main_image.png" alt="" id="mail_image">
+            <p id="company_mail">info@abhyaasindia.in</p><br>
+            <img src="resources/contactus/call_image.png" alt="" id="call_image">
+            <p id="company_mobnum">8630444460</p>
+            <div id="row3">
+                <img src="resources/whatsapp_icon.png" alt="" id="icon1">
+                <img src="resources/instagram_icon.png" alt="" id="icon2">
+                <img src="resources/facebook_icon.png" alt="" id="icon3">
+                <img src="resources/twitter_icon.png" alt="" id="icon4">
+            </div>
+        </div>
+        <div id="section2">
+            <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+                <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c75ce6be-4349-4a90-ab99-fa70a771a77a">
+                <input type="text" name="First Name" placeholder="First Name" id="fname" class="input" required><br>
+                <input type="email" name="Email" placeholder="Email" id="email" class="input" required><br>
+                <textarea name="Message" placeholder="Type your Message..." id="textarea" class="input"></textarea><br>
+                <button type="submit" id="send">Send</button>
+                </form>
+            <!-- </form> -->
+        </div>
+    </div>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "soumyarangaiahgari417@gmail.com",
+                Password: "Soumya-0417",
+                To: 'soumyarangaiahgari043@gmail.com',
+                From: document.getElementById('email').value,
+                Subject: "New Contect Form Enquiry",
+                Body: "Name: " + document.getElementById("fname").value +
+                 "<br> Emain : " + document.getElementById("email").value
+            }).then(
+                message => alert("Message Sent Successfully")
+            );
+        }
+    </script> -->
+</body>
+
+</html>

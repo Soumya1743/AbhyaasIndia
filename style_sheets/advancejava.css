@@ -1,0 +1,242 @@
+#javafullstack {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-top: 7rem;
+}
+#jfs_first {
+    width: 50rem;
+    padding-top: 1rem;
+}
+#jfs_second, #jfs_second_disable {
+    width: 25rem;
+    height: max-content;
+    text-align: center;
+    border-radius: 10px;
+}
+#jfs_block1 {
+    display: flex;
+    column-gap: 2rem;
+}
+#position_fixed {
+    position: fixed;
+    margin-top: 1.8rem;
+    border: 1px solid rgb(202, 202, 202);
+    box-shadow: 0px 0px 10px rgb(176, 176, 176);
+    border-radius: 10px;
+}
+#abhyaasindia_logo {
+    width: 9rem;
+}
+#jfs_heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #0071FC;
+}
+#jfs_heading #bold {
+    color: #FE0000;
+}
+#quote {
+    font-size: 1.2rem;
+}
+#stars_red {
+    width: 7rem;
+}
+#jfs_navigation {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem 0rem 2rem 0.5rem;
+    top: 0;
+}
+#hr {
+    margin-top: 0;
+}
+#back_to_home, #back_to_trainings {
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    color: #FF0000;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+#back_to_trainings {
+    color: #0071FC;
+}
+#back_to_home:hover, #back_to_trainings:hover {
+    box-shadow: 0px 0px 20px rgb(189, 189, 189);
+    transition: all 0.5s ease-in-out;
+}
+#next_arrow {
+    width: 2.3rem;
+}
+
+#jfs_block2 {
+    padding-top: 3.5rem;
+}
+
+#heaidng_syllabus {
+    font-size: 2.5rem;
+}
+#syllabus_block1 {
+    color: black;
+    font-size: 1rem;
+}
+#headingOne, 
+#headingTwo, 
+#headingThree, 
+#headingFour, 
+#headingTenth, 
+#headingEleventh, 
+#headingTwelfth,
+#headingTirteenth,
+#headingFourteenth,
+#headingFifteenth,
+#headingSixteenth,
+#headingSeventeenth,
+#headingEighteenth,
+#headingNineteenth,
+#headingTwentyfirst,
+#headingTwentysecond,
+#headingTwentythird,
+#headingTwentyfourth,
+#headingTwentyfifth,
+#headingTwentysixth,
+#headingTwentyseventh,
+#headingTwentyeighth,
+#headingTwentynineth,
+#headingThirtyfirst,
+#headingThirtysecond,
+#headingThirtythird,
+#headingThirtyfourth,
+#headingThirtyfifth,
+#headingThirtysixth,
+#headingThirtyseventh {
+    background-color: white;
+}
+#syllabus_contents_list {
+    margin: 0.5rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px rgb(176, 176, 176);
+    border-radius: 10px;
+}
+#accordion:active{
+    text-decoration: none;
+}
+
+#price_block {
+    padding: 1.2rem 0rem 0rem 0rem;
+}
+#core_JAVA_image {
+    width: 90%;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+#core_JAVA_image:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+}
+#timer {
+    width: 1.9rem;
+    margin-top: 0.2rem;
+    display: inline-block;
+}
+#validity {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    vertical-align: top;
+}
+#price {
+    color: #FE0000;
+}
+#details {
+    padding-top: 4rem;
+}
+
+#jfs_second_disable {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    #javafullstack {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 3.5rem;
+    }
+    #jfs_second {
+        display: none;
+    }
+    #jfs_second_disable {
+        display: block;
+        border: 1px solid rgb(202, 202, 202);
+        box-shadow: 0px 0px 10px rgb(176, 176, 176);
+        border-radius: 10px;
+    }
+    #jfs_block1 {
+        text-align: center;
+    }
+    #jfs_block1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    #jfs_first {
+        width: 90%;
+        padding-top: 1rem;
+    }
+    #jfs_second, #jfs_second_disable {
+        width: 70%;
+        height: max-content;
+        text-align: center;
+        border: 1px solid rgb(202, 202, 202);
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    #jfs_first {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #abhyaasindia_logo {
+        width: 6rem;
+    }
+    #jfs_heading {
+        font-size: 2rem;
+    }
+    #quote {
+        font-size: 1rem;
+    }
+    #back_to_home, #back_to_trainings {
+        padding: 0.2rem;
+        margin-top: 0.2rem;
+        border-radius: 6px;
+        font-size: 0.5rem;
+    }
+    #next_arrow {
+        width: 1.2rem;
+    }
+}
+
+@media (max-width: 340px) {
+    #syllabus_block1 {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 310px) {
+    #syllabus_block1 {
+        font-size: 0.6rem;
+    }
+}
